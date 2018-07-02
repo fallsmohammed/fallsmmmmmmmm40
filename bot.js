@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+coconst Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '.'
 
@@ -11,12 +11,7 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
   console.log(`[Start] ${new Date()}`);
   console.log('╚[═════════════════════════════════════════════════════════════════]╝')
   console.log('')
-  console.log('╔[════════════════════════════════════]╗');
-  console.log(`Logged in as * [ " ${client.user.username} " ]`);
-  console.log('')
-  console.log('Informations :')
-  console.log('')
-  console.log(`servers! [ " ${client.guilds.size} " ]`);
+  .guilds.size} " ]`);
   console.log(`Users! [ " ${client.users.size} " ]`);
   console.log(`channels! [ " ${client.channels.size} " ]`);
   console.log('╚[════════════════════════════════════]╝')
