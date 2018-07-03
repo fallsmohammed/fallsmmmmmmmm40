@@ -138,13 +138,7 @@ client.on('message', message => {
  
 
 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('https://')){
-        message.delete()
-    return message.reply(`**حبي ممنوع نشر اي روابط:joy: **`)
-    }
-});
+
 
 
 client.login(process.env.BOT_TOKEN);
