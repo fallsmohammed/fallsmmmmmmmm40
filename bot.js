@@ -29,7 +29,6 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 });
 
 
-
 //serv-avatar
 client.on("message", message => {    
     if(!message.channel.guild) return;
