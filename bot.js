@@ -33,7 +33,7 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 client.on("message", message => {    
     if(!message.channel.guild) return;
 if(message.author.bot) return;
-if(message.content === "!-ser-av"){ 
+if(message.content === "!av"){ 
     const embed = new Discord.RichEmbed()
 
 .setTitle(`صورة ** ${message.guild.name} **`)
@@ -47,7 +47,7 @@ message.channel.send({embed});
 
 //avatar
 client.on('message', message => {
-if (message.content.startsWith("!-avatar")) {
+if (message.content.startsWith("!avatar")) {
   var mentionned = message.mentions.users.first();
 var x5bzm;
 if(mentionned){
