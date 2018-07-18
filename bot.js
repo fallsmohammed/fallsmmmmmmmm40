@@ -167,8 +167,6 @@ client.on('message', message => {
     user.send({embed: embed1});
 }
 });
- 
-
 
 
 
